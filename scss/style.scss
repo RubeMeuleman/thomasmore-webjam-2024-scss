@@ -1,0 +1,18 @@
+// CDN
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+// TODO: Google font must still be linked -> https://fonts.google.com/
+
+// Bootstrap + override partials
+@import "../node_modules/bootstrap/scss/functions";
+@import "mixins";
+@import "variables";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/root";
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+// Custom files
+@import "index";

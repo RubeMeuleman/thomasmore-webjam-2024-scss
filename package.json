@@ -1,7 +1,7 @@
 {
   "name": "2024 Thomas More webjam",
   "version": "1.0.0",
-  "description": "Chat and plan app",
+  "description": "The basic repository for the 2024 Thomas More Web-Jam with the scss and gulp starterspack.",
   "main": "index.js",
   "keywords": [
     "Sass",

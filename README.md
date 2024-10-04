@@ -2,6 +2,8 @@
 
 The basic repository for the 2024 Thomas More Web-Jam with the scss and gulp starterspack.
 
+> Participant number:
+
 ## 1 - Installation
 
 Command to install all dependencies:
@@ -11,6 +13,12 @@ Command to install all dependencies:
 Command to activate gulp:
 
 `gulp`
+
+The basic packages are already linked (bootstrap, font awesome, ...).
+
+A font still has to be linked. Do this in the `scss/style.scss` file (There's a to-do comment). Get your font
+here:<br/>
+https://fonts.google.com/
 
 ## 2 - Project explanation
 

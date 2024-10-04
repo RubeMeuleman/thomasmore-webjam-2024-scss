@@ -1,6 +1,10 @@
 // CDN
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
-// TODO: Google font must still be linked -> https://fonts.google.com/
+/*
+    TODO: Google font must still be linked -> https://fonts.google.com/
+    An example:
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*/
 
 // Bootstrap + override partials
 @import "../node_modules/bootstrap/scss/functions";

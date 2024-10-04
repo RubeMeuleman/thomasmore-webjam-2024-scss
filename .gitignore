@@ -3,5 +3,5 @@
 /.vscode
 /node_modules
 src/js/bootstrap.bundle.min.js
-/src/style.css
+/src/css
 /dist

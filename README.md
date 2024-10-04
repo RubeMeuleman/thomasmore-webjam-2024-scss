@@ -24,8 +24,8 @@ https://fonts.google.com/
 
 ### English
 
-You are responsible for creating a new website that displays the cafeteria menus for Thomas More. The site should be a *
-*one-pager**, showcasing all the menus for the entire week. (For inspiration, you can refer to the Thomas More Bot in
+You are responsible for creating a new website that displays the cafeteria menus for Thomas More. The site should be a
+**one-pager**, showcasing all the menus for the entire week. (For inspiration, you can refer to the Thomas More Bot in
 the Discord server.)
 
 Focus on making the website visually appealing and professional. This includes using

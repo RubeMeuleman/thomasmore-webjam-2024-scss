@@ -9,7 +9,9 @@
   ],
   "scripts": {
     "watch": "gulp",
-    "build": "gulp build"
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "type": "module",
   "devDependencies": {
@@ -25,7 +27,10 @@
     "gulp-notify": "^4.0.0",
     "gulp-plumber": "^1.2.1",
     "gulp-sourcemaps": "^3.0.0",
-    "gulp-uglify": "^3.0.2"
+    "gulp-uglify": "^3.0.2",
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.0"
   },
   "dependencies": {
     "install": "^0.13.0"

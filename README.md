@@ -2,13 +2,17 @@
 
 The basic repository for the 2024 Thomas More Web-Jam with the scss and gulp starterspack.
 
-> Participant number:
+> Participant name:
 
 ## 1 - Installation
 
 Command to install all dependencies:
 
 `npm install`
+
+Start the server to fetch the API:
+
+`node server.js`
 
 Command to activate gulp:
 

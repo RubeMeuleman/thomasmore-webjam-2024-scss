@@ -1,8 +1,8 @@
-const express = require('express');
-const cors = require('cors');
-const axios = require('axios');
-const app = express();
+import express from 'express';
+import axios from 'axios';
+import cors from 'cors';
 
+const app = express();
 
 app.use(cors());
 app.get('/api/WeekMenu/:campusName', (req, res) => {

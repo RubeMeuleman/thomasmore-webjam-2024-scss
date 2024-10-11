@@ -1,22 +1,24 @@
-import express from 'express';
-import axios from 'axios';
-
+const express = require('express');
+const cors = require('cors');
+const axios = require('axios');
 const app = express();
 
+
+app.use(cors());
 app.get('/api/WeekMenu/:campusName', (req, res) => {
     const campusName = req.params.campusName;
-    axios.get(`https://tmmenumanagement.azurewebsites.net/api/WeekMenu/${campusName}`)
+    const apiUrl = `https://tmmenumanagement.azurewebsites.net/api/WeekMenu/${campusName}`;
+
+    axios.get(apiUrl)
         .then(response => {
             res.json(response.data);
         })
         .catch(error => {
             console.error(error);
-            res.status(500).send('Error fetching data from the API');
+            res.status(500).send('Error fetching from the API');
         });
 });
 
-const PORT = process.env.PORT || 3000;
-
-app.listen(PORT, () => {
-    console.log(`Proxy server started on port ${PORT}`);
+app.listen(3000, () => {
+    console.log('Proxy server started on port 3000');
 });
